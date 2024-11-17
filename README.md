@@ -57,6 +57,24 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+## After Clone repository
+
+# Install project dependencies
+$ npm install
+
+# Initialize Prisma in your project
+$ npx prisma init
+
+# Pull the current database schema from your database
+$ npx prisma db pull
+
+# Generate Prisma client
+$ npx prisma generate
+
+# Run the project in development mode
+$ npm run start:dev
+
+```
 
 ## Deployment
 
