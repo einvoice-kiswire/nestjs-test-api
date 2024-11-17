@@ -12,6 +12,7 @@ async function bootstrap() {
   app.setGlobalPrefix('api')
   // Enable CORS
   app.enableCors(
+    // uncomment line below if you frontend app run at port 3000
     // {
     //   origin: 'http://localhost:3000', // Allow requests from your Next.js app
     //   methods: 'GET, POST, PATCH, DELETE', // Allow specific HTTP methods

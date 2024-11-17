@@ -59,6 +59,7 @@ $ npm run test:cov
 ```
 ## After Clone repository
 
+```bash
 # Install project dependencies
 $ npm install
 
@@ -73,7 +74,6 @@ $ npx prisma generate
 
 # Run the project in development mode
 $ npm run start:dev
-
 ```
 
 ## Deployment
